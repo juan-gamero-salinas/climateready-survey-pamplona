@@ -11,3 +11,5 @@ This dataset is part of the [CLIMATEREADY research project](https://experience.a
 | `ID` | Unique dwelling identifier [integer]  |
 
 
+# Preview HTML file
+Download the HTML file and open it with your default PC browser.
