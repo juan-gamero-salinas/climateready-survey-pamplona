@@ -12,4 +12,4 @@ This dataset is part of the [CLIMATEREADY research project](https://experience.a
 
 
 # Preview HTML file
-Download the HTML file and open it with your default PC browser.
+Download the `climateready.html` file, and once downloaded, open it with your default PC browser.
