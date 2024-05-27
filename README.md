@@ -76,17 +76,17 @@ This dataset is part of the [CLIMATEREADY research project](https://experience.a
 | `SrfcArea_below90` | Surface area below 90 sqm [boolean, True = 1]  |
 | `Storey_UpperFloor` | Upper floor dwelling [boolean, True = 1]  |
 | `Storey_NotApartment` | Not an apartment but a single-family dwelling [boolean], True = 1  |
-| `numOrient_1` | One orientation [boolean, True = 1]  |
-| `numOrient_above2` | More than two orientations [boolean, True = 1]  |
+| `numOrient_1` | Dwelling has only one orientation [boolean, True = 1]  |
+| `numOrient_above2` | Dwelling has more than two orientations [boolean, True = 1]  |
 | `LivRoom_SrfcAreaWindow_below2` | Living room window surface area below 2 sqm [boolean, True = 1]  |
 | `LivRoom_SrfcAreaWindow_above2` | Living room window surface area above 2 sqm [boolean, True = 1]  |
 | `Bedroom_SrfcAreaWindow_below2` | Bedroom window surface area below 2 sqm [boolean, True = 1]  |
 | `Bedroom_SrfcAreaWindow_above2` | Bedroom window surface area above 2 sqm [boolean, True = 1]  |
 | `AC_Installed_Yes` | Dwelling has air conditioning installed [boolean, True = 1]  |
 | `WouldYouInstallAC_Yes` | Would install AC? [boolean, True = 1]  |
-| `hasCoolRoom` | Has 'cool' room ('cool' retreat) [boolean, True = 1]  |
-| `hasCoolingAlternatives` | Occupant has cooling alternatives (e.g. portaable fans) [boolean, True = 1]  |
-| `HeatSymptoms` | Occupant has heat symptoms during the day (e..g. dizziness or low blood pressure, headache, palpitations, hyperventilation) [boolean, True = 1]  |
+| `hasCoolRoom` | Has 'cool' room (i.e. 'cool' retreat) [boolean, True = 1]  |
+| `hasCoolingAlternatives` | Occupant has cooling alternatives (e.g. portable fans) [boolean, True = 1]  |
+| `HeatSymptoms` | Occupant has heat symptoms during the day (e.g. dizziness or low blood pressure, headache, palpitations, hyperventilation) [boolean, True = 1]  |
 | `SleepingProblems` | Occupant reports having sleep problems due to heat  [boolean, True = 1]  |
 
 
