@@ -12,17 +12,17 @@ This dataset is part of the [CLIMATEREADY research project](https://experience.a
 | --------------- | --------------- |
 | `ID` | Unique dwelling identifier [integer]  |
 | `Timestamp` | Data collection timestamp [dd/mm/yyy hh:mm]  |
-| `Date` | Data collection date [yymmdd]  |
+| `Date` | Data collection date [YYMMDD]  |
 | `Hour` | Data collection hour [hh]  |
-| `hw_True` | Hot weather condition indicator [True/False]  |
-| `meanTout` | Mean outdoor temperature [ºC]  |
-| `ThermostatTemp` | Thermostat temperature setting [ºC]  |
-| `TSen_day` | Temperature sensation during the day, on the ASHRAE scale [-3 (cold) to +3 (hot)]  |
-| `TSen_night` | Temperature sensation during the night, on the ASHRAE scale [-3 (cold) to +3 (hot)]  |
-| `TSatisf_day` | Temperature satisfaction during the day, on the ASHRAE scale [-3 (highly unsatisfied) to +3 (highly satisfied)]  |
-| `TSatisf_night` | Temperature satisfaction during the night, on the ASHRAE scale [-3 (highly unsatisfied) to +3 (highly satisfied)]  |
-| `TPref_day` | Temperature preference during the day, on the ASHRAE scale [-1 (prefer cooler) to +1 (prefer warmer)]  |
-| `TPref_night` | Temperature preference during the night, on the ASHRAE scale [-1 (prefer cooler) to +1 (prefer warmer)]  |
+| `hw_True` | Hot weather condition indicator [boolean, True = 1]  |
+| `meanTout` | Mean outdoor temperature [ºC, float]  |
+| `ThermostatTemp` | Thermostat temperature setting [ºC, float]  |
+| `TSen_day` | Temperature sensation during the day, on the ASHRAE scale [-3 (cold) to +3 (hot), integer]  |
+| `TSen_night` | Temperature sensation during the night, on the ASHRAE scale [-3 (cold) to +3 (hot), integer]  |
+| `TSatisf_day` | Temperature satisfaction during the day, on the ASHRAE scale [-3 (highly unsatisfied) to +3 (highly satisfied), integer]  |
+| `TSatisf_night` | Temperature satisfaction during the night, on the ASHRAE scale [-3 (highly unsatisfied) to +3 (highly satisfied), integer]  |
+| `TPref_day` | Temperature preference during the day, on the ASHRAE scale [-1 (prefer cooler) to +1 (prefer warmer), integer]  |
+| `TPref_night` | Temperature preference during the night, on the ASHRAE scale [-1 (prefer cooler) to +1 (prefer warmer, integer)]  |
 | `Gender` | Respondent gender [boolean, Woman = 1]  |
 | `Age` | Respondent age [integer]  |
 | `NatVent_night` | Nighttime natural ventilation usage [boolean, True = 1]  |
