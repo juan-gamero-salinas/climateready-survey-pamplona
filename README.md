@@ -1,6 +1,6 @@
 # CLIMATEREADY 'Thermal Comfort Survey Amid Heatwaves' Dataset
 
-This repository gives you access to the CLIMATEREADY survey dataset containing thermal comfort votes during the 2021 and 2022 heatwave periods in Pamplona, Spain, as well as other relevant parameters self-reported by surveyees (e.g. occupant characteristics and behaviour, key building/dwelling characteristics, sleep problems, heat-related symptoms), used as case study for the research paper [Exploring indoor thermal comfort and its causes and consequences amid heatwaves in a Southern European city—An unsupervised learning approach](http://dx.doi.org/10.2139/ssrn.4861515) [`SSRN preprint`]. 
+This repository gives you access to the CLIMATEREADY survey dataset containing thermal comfort votes during the 2021 and 2022 heatwave periods in Pamplona, Spain, as well as other relevant parameters self-reported by surveyees (e.g. occupant characteristics and behaviour, key building/dwelling characteristics, sleep problems, heat-related symptoms), used as case study for the research paper [Exploring indoor thermal comfort and its causes and consequences amid heatwaves in a Southern European city—An unsupervised learning approach](http://dx.doi.org/10.2139/ssrn.4861515) [`SSRN preprint`]. The code was ran using `Scikit-Learn` Version 3.2.1
 
 This dataset is part of the [CLIMATEREADY research project](https://experience.arcgis.com/experience/a85fb262378b49dc87381261a2e53c91). The aim of this project is the assessment of the adaptability of residential dwellings in Spain to the global warming, promoting passive measures in the design and use of the buildings to get an adequate indoor environment in summer conditions, minimising and quantifying overheating risks and with the minimum cooling.
 
@@ -88,9 +88,12 @@ This dataset is part of the [CLIMATEREADY research project](https://experience.a
 | `WouldYouInstallAC_Yes` | Would install AC? [boolean, True = 1]  |
 | `hasCoolRoom` | Has 'cool' room (i.e. 'cool' retreat) [boolean, True = 1]  |
 | `hasCoolingAlternatives` | Occupant has cooling alternatives (e.g. portable fans) [boolean, True = 1]  |
-| `HeatSymptoms` | Occupant has heat symptoms during the day (e.g. dizziness or low blood pressure, headache, palpitations, hyperventilation) [boolean, True = 1]  |
+| `HeatSymptoms` | Occupant has heat symptoms during the day (e.g. dizziness or low blood pressure, headache, palpitations, hyperventilation) [boolean, True = 1] |
 | `SleepingProblems` | Occupant reports having sleep problems due to heat  [boolean, True = 1]  |
 
+
+## Running the code in R for research sub-question 3
+Use the csv files `R_logistic_hclust` and `R_logistic_kmeans` to run the code in R. You can find the code in [Github](https://github.com/juan-gamero-salinas/climateready-survey-pamplona). You need to set your personal working directory (`setwd`).
 
 ## Preview HTML file
 Download the `climateready.html` file, and once downloaded, open it with your default PC browser.
