@@ -94,7 +94,7 @@ This dataset is part of the [CLIMATEREADY research project](https://experience.a
 ## Running the Python code within Google Colab
 The unsupervised learning techniques were implemented using `Scikit-Learn` version 3.2.1
 
-## Running the code in R for research sub-question 3
+## Running the code in R
 Use the csv files `R_logistic_hclust` and `R_logistic_kmeans` to run the code in R. You can find the code in [Github](https://github.com/juan-gamero-salinas/climateready-survey-pamplona). You need to set your personal working directory (`setwd`).
 
 ## Preview HTML file
