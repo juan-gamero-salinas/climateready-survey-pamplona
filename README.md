@@ -102,4 +102,4 @@ Download the `climateready.html` file, and once downloaded, open it with your de
 
 
 ## Please cite us if you use this dataset
-Gamero-Salinas J, López-Hernández D, González-Martínez P, Arriazu-Ramos A, Monge-Barrio A, Sánchez-Ostiz A, Exploring indoor thermal comfort and its causes and consequences amid heatwaves in a Southern European city—An unsupervised learning approach, *Building* *and* *Environment*, [https://doi.org/10.1016/j.buildenv.2024.111986](https://doi.org/10.1016/j.buildenv.2024.111986)
+Gamero-Salinas J., López-Hernández D., González-Martínez P., Arriazu-Ramos A., Monge-Barrio A., Sánchez-Ostiz A. (2024). Exploring indoor thermal comfort and its causes and consequences amid heatwaves in a Southern European city—An unsupervised learning approach, *Building* *and* *Environment*, *265*. DOI: [https://doi.org/10.1016/j.buildenv.2024.111986](https://doi.org/10.1016/j.buildenv.2024.111986)
